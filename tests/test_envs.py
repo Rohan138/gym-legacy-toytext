@@ -1,12 +1,12 @@
 import gym
 
-import gym_algorithmic
+import gym_toytext
 
 
 def test_envs():
-    gym.make("Copy-v0")
-    gym.make("DuplicatedInput-v0")
-    gym.make("RepeatCopy-v0")
-    gym.make("Reverse-v0")
-    gym.make("ReversedAddition-v0")
-    gym.make("ReversedAddition3-v0")
+    gym.make("KellyCoinflip-v0")
+    gym.make("KellyCoinflipGeneralized-v0")
+    gym.make("NChain-v0")
+    gym.make("Roulette-v0")
+    gym.make("GuessingGame-v0")
+    gym.make("HotterColder-v0")

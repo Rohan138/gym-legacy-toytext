@@ -7,16 +7,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="gym-algorithmic",
+    name="gym-toytext",
     version=VERSION,
-    description="Algorithmic Environments from OpenAI Gym",
+    description="Legacy Toytext Environments from OpenAI Gym",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Rohan138/gym-algorithmic",
+    url="https://github.com/Rohan138/gym-toytext",
     author="Rohan Potdar",
     author_email="rohanpotdar138@gmail.com",
     license="",
-    packages=["gym_algorithmic"],
+    packages=["gym_toytext"],
     install_requires=[
         "gym>=0.19.0",
     ],
