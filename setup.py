@@ -7,12 +7,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="gym-toytext",
+    name="gym-legacy-toytext",
     version=VERSION,
     description="Legacy Toytext Environments from OpenAI Gym",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Rohan138/gym-toytext",
+    url="https://github.com/Rohan138/gym-legacy-toytext",
     author="Rohan Potdar",
     author_email="rohanpotdar138@gmail.com",
     license="",
