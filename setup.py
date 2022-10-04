@@ -1,6 +1,6 @@
 from setuptools import setup
 
-VERSION = "0.0.3"
+VERSION = "0.0.5"
 
 long_description = ""
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -18,7 +18,7 @@ setup(
     license="",
     packages=["gym_toytext"],
     install_requires=[
-        "gym>=0.19.0",
+        "gym>=0.19.0, <0.26.0",
     ],
     python_requires=">=3.6",
     classifiers=[
